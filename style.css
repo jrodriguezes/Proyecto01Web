@@ -1,0 +1,12 @@
+.Hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hero h1{
+font-size: 3rem;
+padding-left: 20px;
+font-weight: bold;
+}
+
