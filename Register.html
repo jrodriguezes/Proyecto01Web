@@ -4,54 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/register.css" />
   </head>
   <body>
-    <section class="Hero">
-      <img src="LogoAventones.png" alt="Logo" />
-      <h1>AVENTONES</h1>
-    </section>
+    <section class="hero">
+  <img src="img/LogoAventones.png" alt="Logo" />
+  <h1>AVENTONES</h1>
+</section>
 
-    <section class="Form">
-      <h2 class="Form-Title">USER REGISTRATION</h2>
-      <div class="Form-Column">
-        <h3>First Name</h3>
-
-        <h3>Last Name</h3>
+<section class="form">
+  <h2 class="title-form">User Registration</h2>
+  <div class="registration-body">
+    <div class="column-form">
+      <div>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" />
       </div>
-      <div class="Form-Horizontal">
-        <h3>Email</h3>
+      <div>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" />
       </div>
+    </div>
 
-      <div class="Form-Column">
-        <h3>Password</h3>
-
-        <h3>Repeat password</h3>
+    <div class="horizontal-form">
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" />
       </div>
+    </div>
 
-      <div class="Form-Horizontal">
-        <h3>Adress</h3>
+    <div class="column-form">
+      <div>
+        <label for="password">Password</label>
+        <input type="text" id="password" />
       </div>
-
-      <div class="Form-Column">
-        <h3>Country</h3>
-
-        <h3>State</h3>
+      <div>
+        <label for="repeat-password">Repeat Password</label>
+        <input type="text" id="repeat-password" />
       </div>
+    </div>
 
-      <div class="Form-Column">
-        <h3>City</h3>
-
-        <h3>Phone Number</h3>
-        
+    <div class="horizontal-form">
+      <div>
+        <label for="address">Address</label>
+        <input type="text" id="address" />
       </div>
-    </section>
+    </div>
 
-    <section class="CTA-BUTTONS">
+    <div class="column-form">
+      <div>
+        <label for="country">Country</label>
+        <input type="text" id="country" />
+      </div>
+      <div>
+        <label for="state">State</label>
+        <input type="text" id="state" />
+      </div>
+    </div>
 
+    <div class="column-form">
+      <div>
+        <label for="city">City</label>
+        <input type="text" id="city" />
+      </div>
+      <div>
+        <label for="phone-number">Phone Number</label>
+        <input type="text" id="phone-number" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-buttons">
+  <div>
     <p>Already an user? <a href="">Login here</a></p>
-    <p>Register an driver? <a href="">Click here</a></p>
+    <p>Register as driver? <a href="">Click here</a></p>
+  </div>
+  <div>
+    <a href="">Sign up</a>
+  </div>
+</section>
+<hr>
 
-    </section>
+<nav>
+  <a href="#">Home</a> |
+  <a href="#">Rides</a> |
+  <a href="#">Bookings</a> |
+  <a href="#">Settings</a> |
+  <a href="#">Login</a> |
+  <a href="#">Register</a>
+</nav>
+
+<footer>
+  © Aventones.com
+</footer>
+
   </body>
 </html>
