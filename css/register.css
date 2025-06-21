@@ -1,13 +1,15 @@
-.hero {
+.header {
   display: flex;
-  align-items: center; /* centra verticalmente */
-  justify-content: center;/* centra horizontalmente */
+  align-items: center;
+  /* centra verticalmente */
+  justify-content: center;
+  /* centra horizontalmente */
 }
 
-.hero h1{
-font-size: 3rem;
-padding-left: 10px;
-font-weight: bold;
+.header h1 {
+  font-size: 3rem;
+  padding-left: 10px;
+  font-weight: bold;
 }
 
 .form h2 {
@@ -36,7 +38,7 @@ font-weight: bold;
   display: flex;
   flex-direction: column;
   margin: 0 120px;
-  
+
 }
 
 #address,
@@ -45,8 +47,8 @@ font-weight: bold;
   max-width: 540px;
 }
 
-.column-form > div,
-.horizontal-form > div {
+.column-form>div,
+.horizontal-form>div {
   display: flex;
   flex-direction: column;
 }
