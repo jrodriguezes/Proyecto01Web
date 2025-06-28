@@ -1,3 +1,12 @@
+/* Asegura que la página ocupe el 100% del alto de la pantalla */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -10,10 +19,26 @@
     font-weight: bold;
 }
 
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.box-shadow-main {
+    border: 2px solid #4285F4;
+    border-radius: 8px;
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
 .login-form {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     align-items: center;
 }
 
@@ -21,7 +46,7 @@
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    color: blue;
+    color: #4285F4;
     font-family: Roboto, sans-serif;
     border: 1px solid #dadce0;
     font-size: 14px;
@@ -36,3 +61,50 @@
     margin-right: 10px;
 }
 
+.or {
+    font-weight: bold;
+}
+
+.user-creedentials,
+.cta-button {
+    display: flex;
+    flex-direction: column;
+    /* ✅ esta línea es clave */
+    justify-content: center;
+    margin-bottom: 1rem;
+    /* espacio entre bloques */
+}
+
+.user-creedentials a {
+        color: #4285F4;
+}
+
+.cta-button button{
+        color: white;
+        background: #4285F4;
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: none;
+}
+
+#username,
+#login-password {
+    width: 260px;
+    max-width: 540px;
+    height: 30px;
+}
+
+footer,
+nav {
+    margin-top: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    color: gray;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}

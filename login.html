@@ -7,35 +7,47 @@
     <link rel="stylesheet" href="css/login.css" />
   </head>
   <body>
-    <header class="header">
-      <img src="img/LogoAventones.png" alt="Logo" />
-      <h1>AVENTONES</h1>
-    </header>
+    <div class="page-container">
+      <div class="box-shadow-main">
+        <header class="header">
+          <img src="img/LogoAventones.png" alt="Logo" />
+          <h1>AVENTONES</h1>
+        </header>
 
-    <section class="login-form">
-      <button class="cta-google">
-        <img class="img-google"
-          src="https://developers.google.com/identity/images/g-logo.png"
-          alt="logo-google"
-        />
-        <span>Sign in with Google</span>
-      </button>
-      <p>Or</p>
-      <div class="user-creedentials">
-        <label for="username">Username</label>
-        <input type="text" id="username" />
+        <section class="login-form">
+          <button class="cta-google">
+            <img
+              class="img-google"
+              src="https://developers.google.com/identity/images/g-logo.png"
+              alt="logo-google"
+            />
+            <span>Sign in with Google</span>
+          </button>
+          <p class="or">Or</p>
+          <div class="user-creedentials">
+            <label for="username">Username</label>
+            <input type="text" id="username" />
 
-        <label for="login-password">Password</label>
-        <input type="password" id="login-password" value="1234567890" />
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" value="1234567890" />
+
+            <p>Not an user? <a href="register.html">Register Now</a></p>
+          </div>
+
+          <div class="cta-button">
+            <button type="submit">Login</button>
+          </div>
+        </section>
       </div>
+    </div>
 
-      <div class="cta-buttons">
-        <p>Not an user? <a href="register.html">Register Now</a></p>
+    <hr />
+    <nav>
+      <a href="#">Home</a> | <a href="#">Rides</a> | <a href="#">Bookings</a> |
+      <a href="#">Settings</a> | <a href="login.html">Login</a> |
+      <a href="#">Register</a>
+    </nav>
 
-        <button type="submit">Login</button>
-      </div>
-    </section>
-
-    <footer>© Aventones.com</footer>
+    <footer class="footer">© Aventones.com</footer>
   </body>
 </html>
