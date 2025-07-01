@@ -69,10 +69,8 @@ body {
 .cta-button {
     display: flex;
     flex-direction: column;
-    /* ✅ esta línea es clave */
     justify-content: center;
     margin-bottom: 1rem;
-    /* espacio entre bloques */
 }
 
 .user-creedentials a {
