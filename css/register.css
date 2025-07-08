@@ -1,9 +1,23 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+}
+
 .header {
   display: flex;
   align-items: center;
-  /* centra verticalmente */
   justify-content: center;
-  /* centra horizontalmente */
+  margin-bottom: 20px;
 }
 
 .header h1 {
@@ -17,6 +31,8 @@
   justify-content: center;
   font-size: 3.5em;
   font-weight: lighter;
+  color: #444;
+  margin: -0px 1px;
 }
 
 .registration-body {
@@ -24,7 +40,8 @@
   flex-direction: column;
   gap: 20px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: -20px auto;
+  margin-top: 40px;
 }
 
 .column-form {
@@ -32,6 +49,13 @@
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.column-form>div>select {
+  padding: 10px;
+  width: 270px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
 }
 
 .horizontal-form {
@@ -101,14 +125,19 @@ input {
 
 footer,
 nav {
-  margin-top: 40px;
+  margin-top: auto;
   text-align: center;
   font-size: 0.9rem;
   color: gray;
+  padding: 10px 0;
 }
 
 nav a {
   margin: 0 10px;
   text-decoration: none;
   color: black;
+}
+
+.form>hr {
+  margin: 1px 825px;
 }
