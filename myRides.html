@@ -21,11 +21,7 @@
 
       <div class="nav-right">
         <input type="text" placeholder="Search..." class="search-input" />
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
-          alt="User"
-          class="user-icon"
-        />
+        <img src="img/user-icon.png" alt="User" class="user-icon" />
       </div>
     </section>
 
@@ -34,7 +30,12 @@
         <h2>My rides</h2>
       </div>
       <div class="box-button">
-        <button class="new-ride-button">New Ride</button>
+        <button
+          onclick="window.location.href='newRide.html'"
+          class="new-ride-button"
+        >
+          New Ride
+        </button>
       </div>
 
       <table class="rides-table">
@@ -55,7 +56,7 @@
             <td>2</td>
             <td>Nissan Pathfinder 2015</td>
             <td>$5</td>
-            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            <td><a href="editRide.html">Edit</a> | <a href="#">Delete</a></td>
           </tr>
           <tr>
             <td><a href="#">Quesada</a></td>
@@ -63,7 +64,7 @@
             <td>1</td>
             <td>Toyota Corolla 2020</td>
             <td>$10</td>
-            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            <td><a href="editRide.html">Edit</a> | <a href="#">Delete</a></td>
           </tr>
           <tr>
             <td><a href="#">Aguas Zarcas</a></td>
@@ -71,16 +72,17 @@
             <td>1</td>
             <td>Ford Festiva 1990</td>
             <td>--</td>
-            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+            <td><a href="editRide.html">Edit</a> | <a href="#">Delete</a></td>
           </tr>
         </tbody>
       </table>
     </section>
     <hr />
     <nav>
-      <a href="#">Home</a> | <a href="#">Rides</a> | <a href="#">Bookings</a> |
+      <a href="#">Home</a> | <a href="myRides.html">Rides</a> | <a href="bookings.html">Bookings</a> |
       <a href="#">Settings</a> | <a href="login.html">Login</a> |
       <a href="register.html">Register</a>
     </nav>
+    <footer class="footer">© Aventones.com</footer>
   </body>
 </html>

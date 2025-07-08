@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bookings</title>
     <link rel="stylesheet" href="css/bookings.css" />
   </head>
   <body>
@@ -21,11 +21,7 @@
 
       <div class="nav-right">
         <input type="text" placeholder="Search..." class="search-input" />
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
-          alt="User"
-          class="user-icon"
-        />
+        <img src="img/user-icon.png" alt="User" class="user-icon" />
       </div>
     </section>
     <section class="bookings-section">
@@ -43,12 +39,18 @@
         </thead>
         <tbody>
           <tr>
-            <td>Fulano</td>
+            <td class="foto-perfil">
+              <img src="img/user-icon.png" alt="" />
+              <p>Fulano</p>
+            </td>
             <td>Ciudad Quesada - Naranjo</td>
             <td><a href="">Accept</a> | <a href="">Reject</a></td>
           </tr>
           <tr>
-            <td>yluna</td>
+            <td class="foto-perfil">
+              <img src="img/user-icon.png" alt="" />
+              <p>yluna</p>
+            </td>
             <td>Fortuna - San José</td>
             <td><a href="">Accept</a> | <a href="">Reject</a></td>
           </tr>
@@ -58,9 +60,10 @@
 
     <hr />
     <nav>
-      <a href="#">Home</a> | <a href="#">Rides</a> | <a href="#">Bookings</a> |
+      <a href="#">Home</a> | <a href="myRides.html">Rides</a> | <a href="bookings.html">Bookings</a> |
       <a href="#">Settings</a> | <a href="login.html">Login</a> |
       <a href="register.html">Register</a>
     </nav>
+    <footer class="footer">© Aventones.com</footer>
   </body>
 </html>
