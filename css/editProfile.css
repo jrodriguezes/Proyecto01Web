@@ -6,6 +6,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.page-container {
+    height: 90%;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -69,19 +73,86 @@ body {
     margin: -12px 5px;
 }
 
-.user-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 2px solid #555;
-    margin: -12px 5px;
+.form-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.new-ride-section h2 {
+.form-title h2 {
     font-size: 40px;
     color: #555;
     font-weight: lighter;
     border-bottom: 1px solid #555;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 565px;
+    margin: 0px auto;
+}
+
+.column-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.column-form>div>select {
+    padding: 10px;
+    width: 270px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.horizontal-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 563px;
+}
+
+#address,
+#email {
+    width: 100%;
+    max-width: 540px;
+}
+
+.column-form>div,
+.horizontal-form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 1px;
+}
+
+.form-actions>button {
+    border: 1px solid #555;
+    padding: 10px 80px;
+    background-color: #4285F4;
+    color: white;
+}
+
+.form-actions>a {
+    color: #4285F4;
 }
 
 footer,
@@ -97,116 +168,4 @@ nav a {
     margin: 0 10px;
     text-decoration: none;
     color: black;
-}
-
-.new-ride-section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.new-ride-section h2 {
-    border-bottom: 1px solid #555;
-}
-
-.new-ride-main {
-    display: flex;
-    gap: 20px;
-    max-width: 800px;
-    flex-direction: column;
-}
-
-.form-group-left {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.form-group-left>div {
-    display: flex;
-    flex-direction: column;
-}
-
-#departure,
-#arrival {
-    width: 100%;
-    max-width: 540px;
-    width: 350px;
-}
-
-.form-group-left>div>label {
-    margin-bottom: 5px;
-    font-size: 1.0rem;
-    font-weight: 500;
-}
-
-.form-group-left>div>input {
-    padding: 10px;
-    width: 250px;
-    border: 1px solid #aaa;
-}
-
-.form-group-days>div {
-    padding-bottom: 10px;
-}
-
-.form-group-days>div>label {
-    padding: 0px 25px;
-}
-
-.form-group-inline {
-    display: flex;
-    justify-content: space-between;
-}
-
-.form-group-inline>div {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-group-inline>div>select {
-    padding: 7px;
-    width: 140px;
-    max-width: 200px;
-}
-
-.form-group-inline>div>input {
-    padding: 7px;
-    width: 80px;
-    max-width: 100px;
-}
-
-.vehicle-details-title {
-    margin-bottom: -15px;
-}
-
-.vehicle-details {
-    display: flex;
-    border: 1px solid #555;
-    padding: 50px 1px;
-    justify-content: space-between;
-}
-
-.vehicle-details>div {
-    display: flex;
-    flex-direction: column;
-    max-width: 240px;
-    padding: 1px 50px;
-}
-
-.form-actions {
-    display: flex;
-    justify-content: space-between;
-    padding: 70px 1px;
-}
-
-.form-actions>button {
-    border: 1px solid #555;
-    padding: 10px 80px;
-    background-color: #4285F4;
-    color: white;
-}
-
-.form-actions>a {
-    color: #4285F4;
 }
