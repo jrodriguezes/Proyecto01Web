@@ -1,0 +1,149 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3f3f3;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    font-family: sans-serif;
+    height: 60px;
+    margin: 1px 100px;
+}
+
+.nav-left .nav-link {
+    display: inline;
+    text-decoration: none;
+    font-size: 25px;
+    color: #555;
+    font-weight: 700;
+    padding: 30px 30px;
+    height: 100%;
+}
+
+.nav-link.active {
+    background-color: #4285F4;
+    color: white;
+    padding: 26px 30px;
+}
+
+.search-input {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin: 10px 40px;
+}
+
+.user-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    margin: -12px 5px;
+}
+
+footer,
+nav {
+    margin-top: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    color: gray;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.configuration-header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.configuration-header h2 {
+    font-size: 50px;
+    color: #555;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.configuration-header hr {
+    margin: 0px 880px;
+}
+
+.configuration-body {
+    display: flex;
+    flex-direction: column;
+    /* Apila los hijos verticalmente */
+    /* align-items: center; */
+    /* Centra el cuadro general horizontalmente */
+    justify-content: center;
+    /* Centra el cuadro general verticalmente */
+    min-height: 60vh;
+    /* Para centrar en la ventana */
+    gap: 20px;
+    /* Espacio entre los campos */
+}
+
+.configuration-body>div:not(.form-actions){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    margin-left: 33%;
+}
+
+.configuration-body>div.configuration-options-second-part {
+    width: 33%;
+}
+
+.configuration-body label {
+    margin-bottom: 5px;
+}
+
+.configuration-body input[type="text"],
+.configuration-body textarea {
+    width: 100%;
+    /* Para que el input/textarea ocupe todo el ancho del cuadro */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 1px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.form-actions>button {
+    border: 1px solid #555;
+    padding: 10px 80px;
+    background-color: #4285F4;
+    color: white;
+}
+
+.form-actions>a {
+    color: #4285F4;
+}
