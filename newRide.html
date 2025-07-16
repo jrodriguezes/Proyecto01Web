@@ -8,8 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <img src="img/LogoAventones.png" alt="Logo" />
-      <h1>AVENTONES</h1>
+      <img src="img/AventonesLogo.png" alt="Logo" />
     </header>
 
     <section class="navbar">
@@ -21,7 +20,17 @@
 
       <div class="nav-right">
         <input type="text" placeholder="Search..." class="search-input" />
-        <img src="img/user-icon.png" alt="User" class="user-icon" />
+        <div class="user-menu">
+          <label for="toggle-menu">
+            <img src="img/user-icon.png" alt="User" class="user-icon" />
+          </label>
+          <input type="checkbox" id="toggle-menu" />
+          <div class="dropdown-menu">
+            <a href="#" class="submenu-logout">Logout</a>
+            <a href="editProfile.html">Profile</a>
+            <a href="configuration.html">Configuration</a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -112,8 +121,8 @@
 
     <hr />
     <nav>
-      <a href="searchRides.html">Home</a> | <a href="myRides.html">Rides</a> |
-      <a href="bookings.html">Bookings</a> | <a href="#">Settings</a> |
+<a href="searchRides.html">Home</a> | <a href="myRides.html">Rides</a> |
+      <a href="bookings.html">Bookings</a> | <a href="editProfile.html">Settings</a> |
       <a href="login.html">Login</a> |
       <a href="register.html">Register</a>
     </nav>

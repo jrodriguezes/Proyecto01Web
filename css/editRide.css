@@ -14,15 +14,10 @@ body {
     padding: 0px 0px;
 }
 
-.header h1 {
-    font-size: 3rem;
-    padding-left: 15px;
-    font-weight: bold;
-}
-
 .header img {
-    max-width: 100px;
-    width: 52px;
+    max-width: 300px;
+    width: 300px;
+    margin: 20px auto;
 }
 
 .navbar {
