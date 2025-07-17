@@ -86,14 +86,12 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.ride-details-header h2 {
     font-size: 30px;
     color: #555;
     font-weight: lighter;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ride-details-header hr {

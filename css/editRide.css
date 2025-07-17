@@ -75,42 +75,28 @@ body {
     margin: -12px 5px;
 }
 
-.new-ride-section h2 {
-    font-size: 40px;
+.edit-ride-header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     color: #555;
     font-weight: lighter;
-    border-bottom: 1px solid #555;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-footer,
-nav {
-    margin-top: auto;
-    text-align: center;
-    font-size: 0.9rem;
-    color: gray;
-    padding: 10px 0;
+.edit-ride-header hr {
+    margin: 0px 44%;
+    margin-bottom: 2%;
 }
 
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: black;
-}
-
-.new-ride-section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.new-ride-section h2 {
-    border-bottom: 1px solid #555;
-}
-
-.new-ride-main {
+.edit-ride-main {
     display: flex;
     gap: 20px;
     max-width: 800px;
+    margin: auto auto;
     flex-direction: column;
 }
 
@@ -207,4 +193,19 @@ nav a {
 
 .form-actions>a {
     color: #4285F4;
+}
+
+footer,
+nav {
+    margin-top: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    color: gray;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
 }

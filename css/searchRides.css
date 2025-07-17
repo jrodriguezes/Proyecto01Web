@@ -120,14 +120,13 @@ nav a {
 
 .rides-finder {
     border: 1px solid #555;
-    padding: 40px 80px;
+    padding: 2% 4%;
     margin: 1% 5%;
 }
 
 .departure-arrive-wrapper {
     display: flex;
-    justify-content: center;
-    gap: 65%;
+    justify-content: space-between;
 }
 
 .departure-arrive-information {
@@ -173,4 +172,14 @@ nav a {
 
 .map-image>img {
     width: 100%;
+}
+
+.find-rides-btn {
+    color: white;
+    background-color: #4285F4;
+    padding: 10px 30px;
+    border: 1px solid #555;
+    border-radius: 4px;
+
+    white-space: nowrap
 }

@@ -72,17 +72,20 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.rides-header {
+.rides-header h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.rides-header h2 {
     font-size: 40px;
     color: #555;
     font-weight: lighter;
-    border-bottom: 1px solid #555;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rides-header hr {
+    margin: 0px 44%;
 }
 
 .box-button {
@@ -111,7 +114,7 @@ body {
 .rides-table td {
     border: 1px solid #ccc;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .rides-table a {

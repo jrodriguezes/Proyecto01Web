@@ -19,6 +19,7 @@ body {
     width: 300px;
     margin: 20px auto;
 }
+
 .page-container {
     display: flex;
     flex-direction: column;
@@ -29,8 +30,7 @@ body {
 
 .box-shadow-main {
     border: 2px solid #4285F4;
-    border-radius: 8px;
-    width: 80%;
+    width: 40%;
     background: #fff;
     padding: 20px;
     padding-bottom: 50px;
@@ -74,15 +74,15 @@ body {
 }
 
 .user-creedentials a {
-        color: #4285F4;
+    color: #4285F4;
 }
 
-.cta-button button{
-        color: white;
-        background: #4285F4;
-        padding: 10px 30px;
-        border-radius: 5px;
-        border: none;
+.cta-button button {
+    color: white;
+    background: #4285F4;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
 }
 
 #username,
@@ -105,4 +105,8 @@ nav a {
     margin: 0 10px;
     text-decoration: none;
     color: black;
+}
+
+.cta-button button:hover {
+    cursor: pointer;
 }
