@@ -87,18 +87,18 @@ nav a {
     font-family: Arial, sans-serif;
 }
 
-.booking-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 .booking-header h2 {
     font-size: 40px;
     color: #555;
     font-weight: lighter;
-    border-bottom: 1px solid #555;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+
+.booking-header hr{
+    margin: 0px 42%;
+    margin-bottom: 4%;
 }
 
 .bookings-table {

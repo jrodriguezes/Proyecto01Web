@@ -20,6 +20,20 @@ body {
     margin: 20px auto;
 }
 
+.rides-header h2 {
+    font-size: 40px;
+    color: #555;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+
+.rides-header hr {
+    margin: 0px 42%;
+    margin-bottom: 2%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -72,19 +86,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.rides-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rides-header h2 {
-    font-size: 40px;
-    color: #555;
-    font-weight: lighter;
-    border-bottom: 1px solid #555;
-}
-
 .rides-table {
     width: 90%;
     border-collapse: collapse;
@@ -96,7 +97,7 @@ body {
 .rides-table td {
     border: 1px solid #ccc;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .rides-table a {

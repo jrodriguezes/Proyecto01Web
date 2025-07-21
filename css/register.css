@@ -6,38 +6,27 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 0px;
-  padding: 0px 0px;
-}
-
-.header img {
-  max-width: 300px;
-  width: 300px;
-  margin: 20px auto;
-  margin-bottom: 4%;
-  margin-top: 3%;
-}
-
 .page-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 90%;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 3% 1px;
+  margin-bottom: 6%;
 }
 
 .form h2 {
   display: flex;
   justify-content: center;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: lighter;
   color: #444;
-  margin: 0 0;
-  margin-bottom: 0.5%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: -0px 1px;
 }
 
 .registration-body {
@@ -94,12 +83,12 @@ input {
   border-radius: 4px;
 }
 
-.cta-buttons {
-  margin: 3% auto;
+.cta-buttons-relinks {
+  margin: 1% auto;
   text-align: center;
 }
 
-.cta-buttons p {
+.cta-buttons-relinks p {
   margin: 5px 0;
   font-size: 0.9rem;
   align-items: center;
@@ -107,26 +96,26 @@ input {
   padding: 20px;
 }
 
-.cta-buttons a {
+.cta-buttons-sign-up a,
+.cta-buttons-relinks a {
   color: #007bff;
   text-decoration: none;
 }
 
-.cta-buttons a:hover {
+.cta-buttons-sign-up a:hover {
   text-decoration: underline;
 }
 
-.cta-buttons div:last-child {
-  margin-top: 20px;
+.cta-buttons-sign-up {
+  margin: 3% auto;
+  text-align: center;
 }
 
-.cta-buttons div:last-child a {
+.cta-buttons-sign-up a {
   background-color: #444;
   color: white;
   padding: 10px 50px;
-  border-radius: 5px;
   text-decoration: none;
-
 }
 
 footer,
@@ -135,15 +124,15 @@ nav {
   text-align: center;
   font-size: 0.9rem;
   color: gray;
-  padding: 10px 0;
+  padding: 1% 0px;
 }
 
 nav a {
-  margin: 0 10px;
+  margin: 0px 10px;
   text-decoration: none;
   color: black;
 }
 
 .form>hr {
-  margin: 1px 825px;
+  margin: 0px 40%;
 }

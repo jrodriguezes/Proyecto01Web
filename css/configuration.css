@@ -20,6 +20,20 @@ body {
     margin: 20px auto;
 }
 
+
+.configuration-header h2 {
+    font-size: 50px;
+    color: #555;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+}
+
+.configuration-header hr{
+    margin: 0px 42%;
+    margin-bottom: 4%;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -82,24 +96,6 @@ nav a {
     color: black;
 }
 
-.configuration-header h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.configuration-header h2 {
-    font-size: 50px;
-    color: #555;
-    font-weight: lighter;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.configuration-header hr {
-    margin: 0px 880px;
-}
-
 .configuration-body {
     display: flex;
     flex-direction: column;
@@ -136,7 +132,8 @@ nav a {
 .form-actions {
     display: flex;
     justify-content: space-between;
-    padding: 70px 1px;
+    margin-top: 7%;
+    margin-bottom: 2%;
     margin-left: 33%;
     margin-right: 33%;
 }
