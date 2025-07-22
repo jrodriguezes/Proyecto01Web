@@ -96,7 +96,7 @@ nav a {
     margin-bottom: 0.5%;
 }
 
-.booking-header hr{
+.booking-header hr {
     margin: 0px 42%;
     margin-bottom: 4%;
 }
@@ -106,7 +106,8 @@ nav a {
     border-collapse: collapse;
     margin: 0 auto;
 }
-.bookings-table th{
+
+.bookings-table th {
     background-color: #bbb9b9;
 }
 
